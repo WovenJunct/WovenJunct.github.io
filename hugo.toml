@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wovenjunct.github.io/'
 locale = 'zh-CN'
 title = "WovenJunct's Mind Palace"
 theme = 'reimu'
