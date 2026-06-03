@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on WovenJunct&#39;s Mind Palace</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content from WovenJunct&#39;s Mind Palace</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+    <managingEditor>1356180660@qq.com (WovenJunct)</managingEditor>
+    <webMaster>1356180660@qq.com (WovenJunct)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+  </channel>
+</rss>

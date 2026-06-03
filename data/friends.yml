@@ -1,0 +1,18 @@
+- name: PKU
+  url: https://www.pku.edu.cn/
+  desc: 北京大学    目前在读学校
+  image: /images/friends/PKU.png
+
+- name: Hugo
+  url: https://gohugo.io/
+  desc: 本站使用的构建框架
+  image: /images/friends/Hugo.png
+
+- name: Reimu
+  url: https://github.com/D-Sketon/hugo-theme-reimu?tab=readme-ov-file
+  desc: 本站使用的主题
+  image: /images/friends/Reimu.png
+- name: opencode
+  url: https://opencode.ai/
+  desc: 不错的AI工具，可接很多API，有免费模型
+  image: /images/friends/opencode.png

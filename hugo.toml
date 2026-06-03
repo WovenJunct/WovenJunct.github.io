@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+locale = 'zh-CN'
+title = "WovenJunct's Mind Palace"
+theme = 'reimu'
+
+[markup.highlight]
+guessSyntax = true
+noClasses = false
+
+[outputs]
+home = ["Algolia", "HTML", "RSS"]
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
+delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
+
