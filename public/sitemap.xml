@@ -9,10 +9,10 @@
     <loc>http://localhost:1313/post/%E5%BC%80%E7%AF%87/</loc>
     <lastmod>2026-06-04T12:45:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/changelog/</loc>
     <lastmod>2026-06-03T17:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/changelog/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-06-03T17:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/links/</loc>
