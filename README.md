@@ -8,7 +8,8 @@
 
 本博客基于[Hugo](https://gohugo.io/)的框架,使用[hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)主题搭建。
 
- **文章发布说明**
+
+# **文章发布说明**
 
 # 一、创建文章
 推荐使用hugo命令
@@ -147,17 +148,17 @@ cover: /images/post-cover.jpg 或 url   # 列表页卡片封面
 ```
 # 六、文章示例
 
-> ---
-> title: 我的第一篇博客
-> date: 2026-06-04T10:00:00+08:00
-> draft: false
-> categories: [随笔]
-> tags: [博客, 第一篇]
-> cover: /images/first-post-cover.jpg
-> banner: /images/first-post-banner.jpg
-> description: "这是我的第一篇博客文章"
-> toc: true
-> comments: true
+> ---  
+> title: 我的第一篇博客  
+> date: 2026-06-04T10:00:00+08:00  
+> draft: false  
+> categories: [随笔]  
+> tags: [博客, 第一篇]  
+> cover: /images/first-post-cover.jpg  
+> banner: /images/first-post-banner.jpg  
+> description: "这是我的第一篇博客文章"  
+> toc: true  
+> comments: true  
 > ---
 > ## 开头
 >这是文章的开头...

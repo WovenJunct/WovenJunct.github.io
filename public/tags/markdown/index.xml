@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WovenJunct&#39;s Mind Palace</title>
-    <link>http://localhost:1313/algolia.json</link>
+    <title>Markdown on WovenJunct&#39;s Mind Palace</title>
+    <link>http://localhost:1313/tags/markdown/</link>
     <description>Recent content from WovenJunct&#39;s Mind Palace</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Thu, 04 Jun 2026 23:32:43 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -41,29 +41,6 @@ Markdown语法展示
       </description>
       
         <category>学习</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>开篇</title>
-      <link>http://localhost:1313/post/%E5%BC%80%E7%AF%87/</link>
-      <pubDate>Thu, 04 Jun 2026 12:45:31 &#43;0800</pubDate>
-      <author>1356180660@qq.com (WovenJunct)</author>
-      <guid>http://localhost:1313/post/%E5%BC%80%E7%AF%87/</guid>
-      <description>
-        <![CDATA[<h1>开篇</h1><p>作者：WovenJunct（1356180660@qq.com）</p>
-        
-          <h1 id="一切的开始">
-<a class="header-anchor" href="#%e4%b8%80%e5%88%87%e7%9a%84%e5%bc%80%e5%a7%8b"></a>
-一切的开始
-</h1><p>终于是初步建成了自己的博客，花了一天时间吧，才从想法到实践，直到完成初步建设，
-自己本就不是像计算机、信科那样技术能力比较强，而且说来惭愧，我也比较贪玩，
-如果没有明确的目标或者强烈的动力，我可能就会去玩游戏、刷视频啥的，玩着玩着时间也就过去了。</p>
-        
-        <hr><p>本文2026-06-04首发于<a href='http://localhost:1313/'>WovenJunct's Mind Palace</a>，最后修改于2026-06-04</p>]]>
-      </description>
       
     </item>
     
