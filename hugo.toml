@@ -21,3 +21,4 @@ enable = true
 delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
 delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
 
+hasCJKLanguage = true

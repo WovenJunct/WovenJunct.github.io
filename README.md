@@ -8,7 +8,7 @@
 
 本博客基于[Hugo](https://gohugo.io/)的框架,使用[hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)主题搭建。
 
-> **文章发布说明**
+ **文章发布说明**
 
 # 一、创建文章
 推荐使用hugo命令
