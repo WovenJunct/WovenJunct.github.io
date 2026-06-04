@@ -7,19 +7,19 @@
 menu:
   - name: home
     url: /
-    icon: /images/logo.png # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: /images/home.svg # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon: /images/logo.png
+    icon: /images/archive.svg
   - name: about
     url: "about"
-    icon: /images/logo.png
+    icon: /images/about.svg
   - name: links
     url: "links"
-    icon: /images/logo.png
+    icon: /images/links.svg
   - name: changelog
     url: "changelog"
-    icon: /images/logo.png
+    icon: /images/logging.svg
 
 
 mainSections: ["post"]
@@ -185,9 +185,9 @@ layout:
   max_width: 1350px # the max width of the main content area
 
 triangle_badge:
-  enable: false
+  enable: true
   icon: github # same as the icon in the social config
-  link: https://github.com/D-Sketon/hugo-theme-reimu
+  link: https://github.com/WovenJunct/WovenJunct.github.io
 
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
@@ -476,7 +476,7 @@ preloader:
     en: Loading...
     ja: 列车发车中...
     pt-BR: Carregando...
-  icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
+  icon: /images/loading.png # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
 
 # see https://github.com/D-Sketon/aos.js
@@ -633,6 +633,15 @@ injector:
       opacity: 0.7;
       text-align: center;
     }
+    .loading-taichi {
+      width: 150px !important;
+      height: 150px !important;
+    }
+    .loading-taichi svg,
+    .loading-taichi img {
+      width: 100% !important;
+      height: 100% !important;
+    }
     </style>
   body_end: |
     <script>
@@ -752,16 +761,16 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: '#ff0000'
-    --red-1: '#ff5252'
-    --red-2: '#ff7c7c'
-    --red-3: '#ffafaf'
-    --red-4: '#ffd0d0'
-    --red-5: '#ffecec'
-    --red-5-5: '#fff3f3'
-    --red-6: '#fff7f7'
-    --color-red-6-shadow: 'rgba(255, 78, 78, 0.6)'
-    --color-red-3-shadow: 'rgba(255, 78, 78, 0.3)'
+    --red-0: '#1d5fa6'
+    --red-1: '#3572b0'
+    --red-2: '#5a92c4'
+    --red-3: '#8cb4d8'
+    --red-4: '#bdd6eb'
+    --red-5: '#dce8f4'
+    --red-5-5: '#edf3f9'
+    --red-6: '#f5f9fc'
+    --color-red-6-shadow: 'rgba(29, 95, 166, 0.6)'
+    --color-red-3-shadow: 'rgba(29, 95, 166, 0.3)'
 
     --highlight-nav: "#f5f5f5"
     --highlight-scrollbar: "#d6d6d6"
@@ -781,10 +790,10 @@ internal_theme:
     --highlight-addition: "#22863a"
     --highlight-addition-bg: "#f0fff4"
   dark:
-    --red-4: 'rgba(255, 208, 208, 0.5)'
-    --red-5: 'rgba(255,228,228,0.15)'
-    --red-5-5: 'rgba(255,236,236,0.05)'
-    --red-6: 'rgba(255, 243, 243, 0.2)'
+    --red-4: 'rgba(189, 214, 235, 0.5)'
+    --red-5: 'rgba(220, 232, 244, 0.15)'
+    --red-5-5: 'rgba(237, 243, 249, 0.05)'
+    --red-6: 'rgba(245, 249, 252, 0.2)'
 
     --highlight-nav: "#222830"
     --highlight-scrollbar: "#454d59"

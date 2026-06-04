@@ -9,14 +9,14 @@
 }
 
 :root {
-  --red-0: #ff0000;
-  --red-1: #ff5252;
-  --red-2: #ff7c7c;
-  --red-3: #ffafaf;
-  --red-4: #ffd0d0;
-  --red-5: #ffecec;
-  --red-5-5: #fff3f3;
-  --red-6: #fff7f7;
+  --red-0: #1d5fa6;
+  --red-1: #3572b0;
+  --red-2: #5a92c4;
+  --red-3: #8cb4d8;
+  --red-4: #bdd6eb;
+  --red-5: #dce8f4;
+  --red-5-5: #edf3f9;
+  --red-6: #f5f9fc;
   --grey-9: #888;
   --grey-7: var(--color-default);
   --color-archive-year: black;
@@ -34,8 +34,8 @@
   --color-meta-shadow: var(--red-6);
   --color-hover-shadow: rgba(120, 120, 120, 0.15);
   --color-h2-after: var(--red-1);
-  --color-red-6-shadow: rgba(255, 78, 78, 0.6);
-  --color-red-3-shadow: rgba(255, 78, 78, 0.3);
+  --color-red-6-shadow: rgba(29, 95, 166, 0.6);
+  --color-red-3-shadow: rgba(29, 95, 166, 0.3);
   --highlight-nav: #f5f5f5;
   --highlight-scrollbar: #d6d6d6;
   --highlight-background: #fdfdfd;
@@ -62,10 +62,10 @@
 
 [data-theme="dark"]:root {
   --red-0: var(--red-1);
-  --red-4: rgba(255, 208, 208, 0.5);
-  --red-5: rgba(255, 228, 228, 0.15);
-  --red-5-5: rgba(255, 236, 236, 0.05);
-  --red-6: rgba(255, 243, 243, 0.2);
+  --red-4: rgba(189, 214, 235, 0.5);
+  --red-5: rgba(220, 232, 244, 0.15);
+  --red-5-5: rgba(237, 243, 249, 0.05);
+  --red-6: rgba(245, 249, 252, 0.2);
   --color-archive-year: #999;
   --color-default: #999;
   --color-border: var(--red-5);
@@ -899,6 +899,35 @@ a, .main-nav-icon, .popup-btn-close, button {
 .select-items li.selected {
   background: var(--red-1);
   color: #fff;
+}
+
+.triangle-badge {
+  position: absolute;
+  top: -6px;
+  right: -26px;
+  transform: rotate(45deg);
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid var(--red-2);
+  display: inline-block;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 959px) {
+  .triangle-badge {
+    display: none;
+  }
+}
+
+.triangle-badge-icon {
+  position: absolute;
+  top: 12px;
+  left: -13px;
+  color: var(--color-header-background) !important;
+  font-size: 28px;
+  transition: 0.3s;
 }
 
 #footer {
