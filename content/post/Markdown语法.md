@@ -4,6 +4,8 @@ date: 2026-06-04T23:32:43+08:00
 lastmod: 2026-06-04T23:32:43+08:00
 description: "为了写博客，学习学习更多的markdown语法"
 draft: false
+categories: [学习]          
+tags: [markdown] 
 ---
 # Markdown语法展示
 
