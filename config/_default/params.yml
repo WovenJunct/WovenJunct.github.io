@@ -109,7 +109,7 @@ footer:
   since: 2026 # 2026-current year
   powered: true
   count: true
-  busuanzi: false
+  busuanzi: true
   icon:
     url: "/images/原石.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
@@ -641,6 +641,13 @@ injector:
     .loading-taichi img {
       width: 100% !important;
       height: 100% !important;
+    }
+    .sidebar-author img {
+    transition: transform 1.0s ease;
+    border-radius: 50%;
+    }
+    .sidebar-author:hover img {
+      transform: rotate(360deg);
     }
     </style>
   body_end: |
