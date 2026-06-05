@@ -12,6 +12,11 @@
   url: https://github.com/D-Sketon/hugo-theme-reimu?tab=readme-ov-file
   desc: 本站使用的主题
   image: /images/friends/Reimu.png
+
+- name: Giscus
+  url: https://giscus.app/
+  desc: 本站使用的评论系统，基于Github Discussions
+  image: https://avatars.githubusercontent.com/ml/9968?s=82&v=4
 - name: opencode
   url: https://opencode.ai/
   desc: 不错的AI工具，可接很多API，有免费模型

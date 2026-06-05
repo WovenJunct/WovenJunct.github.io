@@ -36,12 +36,20 @@ description: "愿此行终抵群星"
 # subtitle: "列车发车中..."
 subtitle:
   typing:
-    enable: false
+    enable: true
     strings:
-      # - Sentence 1
-      # - Sentence 2
-      # - Sentence 3
-      # - Sentence 4
+       - 列车发车中...
+       - 当你有机会做出选择，不要让自己后悔
+       - 风带来了故事的种子，时间使之发芽
+       - 总有地上的生灵，敢于直面雷霆的威光
+       - 听凭风引，与风同行
+       - 天动万象，天理常驱
+       - 只要不失去你的崇高，整个世界都会为你敞开
+       - 此番美景，邀诸位共赏之
+       - 愿此行，终抵群星
+       - 拾花鸟之一趣，照月风之长路
+       - 但行前路终无悔，只盼完事在人为
+       - 终日乾乾，与时偕行
     typeSpeed: 100              # 打字速度（毫秒/字符） 
     backSpeed: 50               # 删除速度（毫秒/字符）
     backDelay: 2000             # 打完一句话后，等待时间
@@ -128,7 +136,6 @@ social:
     url: https://github.com/WovenJunct
   - name: bilibili
     url: https://space.bilibili.com/1850580283?spm_id_from=333.1007.0.0
-
 widgets:
   - category
   - tag
@@ -537,11 +544,11 @@ firework:
 
 # show the copyright below each article
 article_copyright:
-  enable: false
+  enable: true
   content:
     author: true
     link: true
-    title: false
+    title: true
     date: false
     updated: false
     license: true
@@ -603,9 +610,9 @@ share:
   # - bluesky
   # - linkedin
   # - reddit
-  # - weibo
-  # - qq
-  # - weixin
+   - weibo
+   - qq
+   - weixin
 
 # show categories card on home page
 home_categories:
@@ -681,7 +688,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -717,30 +724,30 @@ pace:
 # Experimental
 # Please turn on pjax to use this feature
 player:
-  disable_on_mobile: false
+  disable_on_mobile: true
   position: before_sidebar # before_sidebar | after_sidebar | after_widget
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
       audio: []
-      fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
-      lrcType:
+      fixed: false
+      autoplay: false
+      loop: all
+      order: list
+      preload: auto 
+      volume: 0.7 
+      mutex: true 
+      listFolded: true
+      lrcType: 
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
-    enable: false
+    enable: true
     meting_api: # custom api
     options:
-      id: 2265921590
+      id: 18016038377
       server: netease
       type: playlist
       auto:
@@ -751,7 +758,7 @@ player:
 
 pangu:
   # more information: https://github.com/vinta/pangu.js 
-  enable: false  # enable pangu.js to add space between Chinese and English
+  enable: true  # enable pangu.js to add space between Chinese and English
 
 ########################################
 # Theme

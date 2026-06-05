@@ -8,6 +8,7 @@
 
 本博客基于[Hugo](https://gohugo.io/)的框架,使用[hugo-theme-reimu](https://github.com/D-Sketon/hugo-theme-reimu)主题搭建。
 
+评论区使用 [Giscus](https://giscus.app/) 系统构建
 
 # **文章发布说明**
 
