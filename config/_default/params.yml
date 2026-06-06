@@ -705,17 +705,17 @@ quicklink:
 
 # Experimental
 service_worker:
-  enable: false
+  enable: true
 
 # Experimental
 live2d:
-  enable: true
-  position: left # left or right
+  enable: false
+  position: right # left or right
 
 # Experimental
 live2d_widgets:
-  enable: 
-  position: left # left or right
+  enable: true
+  position: right # left or right
 
 # https://github.com/CodeByZach/pace
 pace:
@@ -735,7 +735,7 @@ player:
       fixed: false
       autoplay: false
       loop: all
-      order: list
+      order: random
       preload: auto 
       volume: 0.7 
       mutex: true 
